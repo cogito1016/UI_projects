@@ -10,15 +10,27 @@
 - CSS로 작업하는것의 표준이 됨  
 - Sassy CSS
 
+
+#### block은 box이다.   
+따라서 width와 height가 존재한다.   
+
+#### inline은 box가 아니라 element이다.   
+element는 유동적이라서 높아와 너비가없음.     
+예를들어 text는 inline이다.   
+
 Div요소는 기본적으로 block 요소이다.   
 따라써 Div를 세개 연속으로 생성하게되면 수직배치가 되게 된다.   
 그러나 display속성을 inline-block으로 수정하게되면,   
 수평배치가 될 수 있다.   
 
-block은 box이다.   
-따라서 width와 height가 존재한다.   
+block디스플레이의 특성으로 width와 height가 있지만,   
+inline디스플레이의 특성으로 하나의 요소처럼 취급된다.   
 
-inline은 box가 아니라 element이다.   
-element는 유동적이라서 높아와 너비가없음.     
-예를들어 text는 inline이다.   
+#### div를 수평배치한 후 수평에 알맞은 너비로 정렬하기 위해
+각 요소마다 :nth-child(n)을 통해 margin을 준다면 정렬이 가능하다.   
+
+근데 구리다.   
+하나하나 계산하고 하는것도 구리고, 안멋있음.   
+그리고 css코드를 다시보는것도 진짜싫을것같다.   
+
 
