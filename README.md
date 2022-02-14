@@ -51,8 +51,9 @@ flex-direction : row || coluumn
 기본값은 row(수평)   
 
 - Flex-children배치
-1. justify-content : center || space-between...    
+1. justify-content : center || space-between...   
 main-axis을 기준으로 flex-children의 위치를 변경한다.   
+
 2. align-item : center :: space-between...   
 cross-axis을 기준으로 flex-children의 위치를 변경한다.
 
@@ -60,6 +61,10 @@ cross-axis을 기준으로 flex-children의 위치를 변경한다.
 flex-direction의 기본값인 row일때는, 메인축이 horizen   
 column일때는, 메인축이 vertical.   
 
-- Cross-axis
-flex-direction의 기본값인 row일때는, 크로스축이 vertical   
-column일때는, 크로스축이 horizen.   
+- 크로스축(Cross-axis)
+flex-direction의 기본값인 row일때는, 크로스축이 vertical  
+column일때는, 크로스축이 horizen.  
+
+
+
+
