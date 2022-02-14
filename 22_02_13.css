@@ -1,11 +1,11 @@
 .flex_box_div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /*Main Axis*/
   height: 500px;
   justify-content: space-around;
   /*Cross Axis*/
-  align-items: flex-end;
+  /* align-items: flex-end; */
 }
 
 .box {
@@ -16,6 +16,10 @@
   color: white;
   text-align: center;
   size: 20pt;
+}
+
+.box:nth-child(1) {
+  align-self: center;
 }
 
 /*

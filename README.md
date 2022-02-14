@@ -65,6 +65,13 @@ column일때는, 메인축이 vertical.
 flex-direction의 기본값인 row일때는, 크로스축이 vertical  
 column일때는, 크로스축이 horizen.  
 
-
+- align-self   
+align-item과 비슷한일을함, 즉 cross-axis를 다룬다.   
+그러나 하나의 요소만을 다룰때 사용한다.   
+* 부연설명   
+flexContainer에는 여러 flexitem 자식요소들이 존재하기마련이다.   
+align-item을 통해 cross-axis를 전부 배치할 수 있지만,   
+개별적인 요소마다 개별적인 cross-axis를 설정해줄 필요가 있다.   
+그 때 사용된다.   
 
 
