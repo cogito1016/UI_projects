@@ -68,7 +68,8 @@ column일때는, 크로스축이 horizen.
 - align-self   
 align-item과 비슷한일을함, 즉 cross-axis를 다룬다.   
 그러나 하나의 요소만을 다룰때 사용한다.   
-* 부연설명   
+
+부연설명   
 flexContainer에는 여러 flexitem 자식요소들이 존재하기마련이다.   
 align-item을 통해 cross-axis를 전부 배치할 수 있지만,   
 개별적인 요소마다 개별적인 cross-axis를 설정해줄 필요가 있다.   
@@ -80,4 +81,20 @@ html을 바꿀 수 없을 때 사용한다.
 2번박스의 order를 1로바꾸면 맨 뒤로가게될 것.   
 즉, 숫자가 작을수록 순서가 앞이다.   
 
+- flex-wrap(default:nowrap)
+FlexBox는 Flex-direction에 맞게 요소들을 배치하는것이 목적이다.   
+따라서 flex-direction row일 시, 개별요소의 width는 신경쓰지 않는다.   
+같은 라인에 배치할 뿐.   
 
+그러나 flex-wrap을 wrap으로 설정하게된다면,   
+flex요소들의 개별 width를 유지하라고 하는것과 같다.   
+따라서 요소들의 width가 뭉게지지않고 여러 층으로 나눠지게된다.   
+
+- reverse()   
+reverse는 flex-direction의 값들 중 하나이다.   
+row-reverse || column-reverse가 있으며, 요소의 순서를 반전시킨다.   
+
+- align-content(default:space-around)   
+justify-content와 비슷하지만 line에 대한 것 이다.   
+어떤 line 이냐면, flex-wrap을 wrap으로 설정하였을때 생기는 층 별 라인이다.(⭐️cross-axis line⭐️)   
+flex-start로 설정하면 라인이 사라진다.   
