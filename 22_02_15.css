@@ -18,7 +18,7 @@
   size: 20pt;
 }
 
-.box:nth-child(2) {
+/* .box:nth-child(2) {
   background-color: black;
   flex-shrink: 2;
 }
@@ -26,4 +26,9 @@
 .box:nth-child(3) {
   background-color: red;
   flex-shrink: 3;
+} */
+
+.box:nth-child(2) {
+  background-color: black;
+  flex-grow: 2;
 }
