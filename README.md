@@ -98,3 +98,14 @@ row-reverse || column-reverse가 있으며, 요소의 순서를 반전시킨다.
 justify-content와 비슷하지만 line에 대한 것 이다.   
 어떤 line 이냐면, flex-wrap을 wrap으로 설정하였을때 생기는 층 별 라인이다.(⭐️cross-axis line⭐️)   
 flex-start로 설정하면 라인이 사라진다.   
+
+- flex-shrink(default:1)   
+element의 행동을 정의한다.   
+flexbox가 쥐어짜질때말이다.   
+무슨말이냐하면 flex가 nowrap일때는 width가 뭉게질 수 있는데,   
+뭉게질 때 어떤 요소가 더 많이 찌그러지는지(nth-child())를 정의.   
+2로 설정시에는 다른 박스들보다 더 찌그러진다.   
+
+- flex-grow   
+flex-shrink와 같지만 반대로 작용한다.   
+
