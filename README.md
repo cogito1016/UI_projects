@@ -90,6 +90,11 @@ FlexBox는 Flex-direction에 맞게 요소들을 배치하는것이 목적이다
 flex요소들의 개별 width를 유지하라고 하는것과 같다.   
 따라서 요소들의 width가 뭉게지지않고 여러 층으로 나눠지게된다.   
 
+- flex-flow   
+flex-direciton 과 flex-wrap은 같이 자주쓰인다.   
+따라서 이 둘을 공백문자로 구분하여 한번에 처리하는 속성이다.   
+ex) flex-flow : row wrap
+
 - reverse()   
 reverse는 flex-direction의 값들 중 하나이다.   
 row-reverse || column-reverse가 있으며, 요소의 순서를 반전시킨다.   
