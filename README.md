@@ -126,4 +126,11 @@ main-axis방향의 요소의 크기를 의미한다.
 flex-box에서 그리드(격자무늬)를만들기 어렵다.   
 1 2 3    
 4   5   
+display : flex   
+
+- grid-template-columns : 100px 100px 100px;
+- grid-template-rows : 50px 50px 50px;
+- gap : 10px;   
+gap(inclues row-gap, column-gap)   
+
 
