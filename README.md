@@ -134,6 +134,10 @@ display : flex
 
 gap(inclues row-gap, column-gap)   
 
+- grid-template-areas
+한번에 템플릿을 잡을 때 유용   
+grid-area와 함께 쓰임   
+
 - gird-column-start|end   
 이 때의 column은 column의 의미가 아니라 Line이라고 보면 됨.   
 grid-column-start : 1   
@@ -155,4 +159,12 @@ grid-column : 1 / -1 #1부터 끝까지
 - span(gird-row|template에 사용)   
 몇개의 셀을 가지게할 건지 정하는 속성   
 grid-row : span 2   
+
+- Line에 이름붙이기   
+grid-template-column : [first-line] 100px [second-line] 200px ...   
+grid-column : first-line / third-line   
+
+이걸 써 ??   
+
+
 
