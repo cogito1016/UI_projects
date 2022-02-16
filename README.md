@@ -139,5 +139,20 @@ gap(inclues row-gap, column-gap)
 grid-column-start : 1   
 grid-column-end : 2   
 위의 의미는 1번라인에서 시작해서 2번라인에서 끝난다.   
-grid child의 영역을 어디까지 사용할지 지정해주는 역할을 함.   
+grid child(cell)의 영역을 어디까지 사용할지 지정해주는 역할을 함.   
+
+- grid-column(-grid-row)   
+grid-column-start|end 를 한번에 쓸 수 있는 방법   
+grid-column : 1 / 2;   
+
+- grid-column의 -1   
+-1의 의미는 끝 이라는 뜻   
+grid-column : 1 / -1 #1부터 끝까지   
+
+더 정확하게는...   
+역순으로 라인을 표시하는 역할이다.   
+라인을 역순으로 셀때, -1은 역순의 첫 번째 이므로 마지막의 의미이다.   
+- span(gird-row|template에 사용)   
+몇개의 셀을 가지게할 건지 정하는 속성   
+grid-row : span 2   
 

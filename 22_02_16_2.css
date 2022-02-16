@@ -15,30 +15,25 @@
 
 .header {
   background-color: red;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column: 1 / -1;
   /* grid-area: header; */
 }
 
 .content {
   background-color: blue;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
   /* grid-area: content; */
 }
 
 .nav {
   background-color: green;
   /* grid-area: nav; */
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row: span 2;
 }
 
 .footer {
   background-color: bisque;
   /* grid-area: footer; */
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column: span 4;
 }
