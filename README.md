@@ -134,10 +134,6 @@ display : flex
 
 gap(inclues row-gap, column-gap)   
 
-- grid-template-areas
-한번에 템플릿을 잡을 때 유용   
-grid-area와 함께 쓰임   
-
 - gird-column-start|end   
 이 때의 column은 column의 의미가 아니라 Line이라고 보면 됨.   
 grid-column-start : 1   
@@ -166,5 +162,22 @@ grid-column : first-line / third-line
 
 이걸 써 ??   
 
+- grid-template-areas
+한번에 템플릿을 잡을 때 유용   
+grid-area와 함께 쓰임   
+
+- grid-template   
+grid-template-areas와 비슷.   
+그러나 row의 크기와 column의 크기를 한번에 지정할 수 있다.   
+또한, line-naming도 할 수 있다. (생략가능)   
+"footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+
+- fr   
+fraction의 준말   
+px처럼 단위이다.   
+grid container의 width에서 사용가능한 범위를 뜻한다.   
+그리고 비율을 의미한다.   
+100width에 row가 1fr 1fr 1fr 1fr일 때, 각각 동일한 비율이지만   
+100width에 row가 4fr 1fr 1fr 1fr일 때, 첫 번째 row는 다른 것들보다 4배 더 크게 비율이 잡힌다.   
 
 
