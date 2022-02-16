@@ -15,14 +15,14 @@
 
 .header {
   background-color: red;
-  grid-column: 1 / -1;
+  grid-column: span 4;
   /* grid-area: header; */
 }
 
 .content {
   background-color: blue;
-  grid-column: 1 / 4;
-  grid-row: 2 / 4;
+  grid-column: span 3;
+  grid-row: span 2;
   /* grid-area: content; */
 }
 
