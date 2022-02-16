@@ -131,6 +131,13 @@ display : flex
 - grid-template-columns : 100px 100px 100px;
 - grid-template-rows : 50px 50px 50px;
 - gap : 10px;   
+
 gap(inclues row-gap, column-gap)   
 
+- gird-column-start|end   
+이 때의 column은 column의 의미가 아니라 Line이라고 보면 됨.   
+grid-column-start : 1   
+grid-column-end : 2   
+위의 의미는 1번라인에서 시작해서 2번라인에서 끝난다.   
+grid child의 영역을 어디까지 사용할지 지정해주는 역할을 함.   
 
