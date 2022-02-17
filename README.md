@@ -180,4 +180,18 @@ grid container의 width에서 사용가능한 범위를 뜻한다.
 100width에 row가 1fr 1fr 1fr 1fr일 때, 각각 동일한 비율이지만   
 100width에 row가 4fr 1fr 1fr 1fr일 때, 첫 번째 row는 다른 것들보다 4배 더 크게 비율이 잡힌다.   
 
+- justify-items(default:stretch)
+row해당   
+grid container는 grid children이 있고 이 자식들을 stretch하여 채워놓는 형태로 존재한다.   
+정해진 grid row와 column의 크기는 존재하나,   
+grid child의 크기에 해당되는 말이다.   
+ex) start시 grid child의 내부요소의 크기에 맞춘 후 맨 앞 위치.   
+end시 grid child의 내부요소의 크기에 맞춘 후 맨 뒤 위치.   
 
+- align-items(default:stretch)   
+column해당   
+위와 동일   
+
+- place-items
+justify-items & align-items 를 합친 속성   
+place-items : y x;   
