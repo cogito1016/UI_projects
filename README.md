@@ -195,3 +195,4 @@ column해당
 - place-items
 justify-items & align-items 를 합친 속성   
 place-items : y x;   
+place-items가 가장 short-cut
