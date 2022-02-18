@@ -161,6 +161,7 @@ grid-template-column : [first-line] 100px [second-line] 200px ...
 grid-column : first-line / third-line   
 
 이걸 써 ??   
+==> 별로안쓰는듯..?
 
 - grid-template-areas
 한번에 템플릿을 잡을 때 유용   
@@ -171,6 +172,7 @@ grid-template-areas와 비슷.
 그러나 row의 크기와 column의 크기를 한번에 지정할 수 있다.   
 또한, line-naming도 할 수 있다. (생략가능)   
 "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+grid-template-areas + grid-template-row|colums
 
 - fr   
 fraction의 준말   
