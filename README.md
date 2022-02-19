@@ -215,3 +215,24 @@ grid의 column을 위치키시는 속성
 
 - jusitfy_self
 개별 요소에 대한 justify-items 속성이다.
+
+- place-self 
+align-self와 justify-self의 short-cut   
+place-self : start end   
+
+- 데이터에 비해 row가 더 적어 gird-template-row에 적용이 안되는 경우.   
+1. 그럴때마다 grid-template-ow : repeat(4, 100px)에 숫자를 증가시켜준다?   
+=> Bad Solution.   
+2. 우리가 지정하지 않은 요소들의 크기를 '자동'으로 지정해주는 설정을 잡아준다.   
+=> Good Solution 🥰   
+=> 이럴 때 사용하는 것이 grid-auto-rows   
+따라서, grid-auto-rows 또는 grid-template-rows에 100px과 같이   
+크기만 지정한다면 모든 row의 크기를 자동으로 지정한다.   
+
+- grid-auto-flow(default:row)   
+gird-template-row|column으로 지정한 갯수 보다   
+요소가 넘쳐버릴 경우, 어느방향으로 추가시킬것인가?   
+column인 경우, 열이 늘어난다.   
+(그리고 이 때, grid-auto-column이 사용될 수 있다 !)   
+
+ 
