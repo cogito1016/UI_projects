@@ -230,9 +230,14 @@ place-self : start end
 크기만 지정한다면 모든 row의 크기를 자동으로 지정한다.   
 
 - grid-auto-flow(default:row)   
-gird-template-row|column으로 지정한 갯수 보다   
-요소가 넘쳐버릴 경우, 어느방향으로 추가시킬것인가?   
-column인 경우, 열이 늘어난다.   
+요소가 늘어나는 flow를 어떻게 지정할 것 인가?   
+column으로 지정 시 왼쪽위->왼쪽아래 방향으로 채워진다.   
+(따라서 row는 고정, column이 증가한다)   
 (그리고 이 때, grid-auto-column이 사용될 수 있다 !)   
 
- 
+디폴트인 row인 경우 왼쪽위->오른쪽위 방향으로 채워진다.   
+(column은 고정, row가 증가한다)   
+
+
+   
+
