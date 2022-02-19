@@ -11,6 +11,8 @@
 
 .header {
   background-color: red;
+  align-self: end;
+  justify-self: end;
 }
 
 .content {

@@ -199,7 +199,7 @@ justify-items & align-items 를 합친 속성
 place-items : y x;   
 place-items가 가장 short-cut
 
-- justify-contetnt
+- justify-content
 grid자체를 위치시키는 속성   
 grid의 row를 위치시키는 속성   
 
@@ -210,3 +210,8 @@ grid의 column을 위치키시는 속성
 - place-content
 = place-items과 달리 모든 요소들에 적용 됨   
 
+- align-self
+개별 요소에 대한 align-items 속성이다.   
+
+- jusitfy_self
+개별 요소에 대한 justify-items 속성이다.
