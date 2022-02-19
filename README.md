@@ -221,13 +221,12 @@ align-self와 justify-self의 short-cut
 place-self : start end   
 
 - 데이터에 비해 row가 더 적어 gird-template-row에 적용이 안되는 경우.   
-1. 그럴때마다 grid-template-ow : repeat(4, 100px)에 숫자를 증가시켜준다?   
+1. 그럴때마다 grid-template-row : repeat(4, 100px)에 숫자를 증가시켜준다?   
 => Bad Solution.   
 2. 우리가 지정하지 않은 요소들의 크기를 '자동'으로 지정해주는 설정을 잡아준다.   
 => Good Solution 🥰   
 => 이럴 때 사용하는 것이 grid-auto-rows   
-따라서, grid-auto-rows 또는 grid-template-rows에 100px과 같이   
-크기만 지정한다면 모든 row의 크기를 자동으로 지정한다.   
+따라서, grid-auto-rows 를 사용하자.  
 
 - grid-auto-flow(default:row)   
 요소가 늘어나는 flow를 어떻게 지정할 것 인가?   
@@ -252,4 +251,10 @@ row에 요소를 최대한 많이 채운다.
 
 Auto Fill 과 Auto Fit은 반응형의 기본이라고한다.   
 아직은 뭔말인지 잘 모르겠지만.. 알아만두자.   
+
+- mincontent
+컨텐츠의 최고로 작은 크기   
+
+- maxcontent
+컨텐츠의 최고로 넓은 크기   
 
