@@ -2,7 +2,7 @@
   background-color: gainsboro;
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(10, minmax(100px, 1fr));
   grid-template-rows: repeat(4, 100px);
 }
 

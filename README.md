@@ -234,10 +234,13 @@ place-self : start end
 column으로 지정 시 왼쪽위->왼쪽아래 방향으로 채워진다.   
 (따라서 row는 고정, column이 증가한다)   
 (그리고 이 때, grid-auto-column이 사용될 수 있다 !)   
-
 디폴트인 row인 경우 왼쪽위->오른쪽위 방향으로 채워진다.   
 (column은 고정, row가 증가한다)   
 
+- minmax()
+ex) repeat(10, minmax(100px, 1fr));   
+윈도우크기를 줄이면 요소의 크기가 작아지게되는데,   
+요소의 최소값과 최대값을 설정하는것이 minmax이다.   
 
    
 
