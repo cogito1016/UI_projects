@@ -198,3 +198,15 @@ column해당
 justify-items & align-items 를 합친 속성   
 place-items : y x;   
 place-items가 가장 short-cut
+
+- justify-contetnt
+grid자체를 위치시키는 속성   
+grid의 row를 위치시키는 속성   
+
+- align-content
+grid자체를 위치시키는 속성   
+grid의 column을 위치키시는 속성   
+
+- place-content
+= place-items과 달리 모든 요소들에 적용 됨   
+
