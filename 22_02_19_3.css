@@ -2,8 +2,19 @@
   background-color: gainsboro;
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(10, minmax(100px, 1fr));
-  grid-template-rows: repeat(4, 100px);
+}
+/* 왜 first-child나 nth-child(1)은 안먹지?? */
+.grid:nth-child(2) {
+  /* grid-template-columns: repeat(5, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.grid:nth-child(3) {
+  /* grid-template-columns: repeat(5, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.grid:nth-child(4) {
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
 }
 
 .item:nth-child(odd) {
