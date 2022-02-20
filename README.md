@@ -291,3 +291,8 @@ variable은 scss에만 사용한다.
 css로의 변환을 원하지않는것들엔 _을 맨 앞에 둔다.   
 $bg: red;와 같이 선언,   
 @import "_variable"로 적재해서 사용한다.   
+
+- Nesting
+CSS를 계층구조로 작성가능   
+가상클래스선택자의 경우 $:active로 사용   
+
