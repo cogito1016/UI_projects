@@ -258,3 +258,16 @@ Auto Fill 과 Auto Fit은 반응형의 기본이라고한다.
 - maxcontent
 컨텐츠의 필요한 만큼의 크기   
 
+### SCSS
+CSS preprocessor   
+(scss, stylus,less ...)
+SCSS -> 컴파일 -> CSS로 변환됨   
+프로그래밍언어처럼 사용함.   
+생산성이 빨라짐.   
+Compile과 Build과정이 필요함   
+
+#### GULP
+Gulp란, 컴파일 or 트랜스폼 해주는 Nodejs package.   
+NewCode->OldCode   
+Scss->Css   
+
