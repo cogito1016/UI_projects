@@ -271,3 +271,17 @@ Gulp란, 컴파일 or 트랜스폼 해주는 Nodejs package.
 NewCode->OldCode   
 Scss->Css   
 
+GULP랑 SCSS가 설정되어있는 레포지토리 사용하려다   
+에러폭탄 맞고 해결하려고 시간쏟다가   
+개 비효율적인것같아서 관둠.   
+
+
+#### 그래서 사용한 방법
+scss 를 css 로 컴파일 해주는 명령어를 입력함.   
+sass style.scss style.css   
+근데 이것만 하면 맨날 수동으로 컴파일 하는거니까   
+sass 의 watch라는 옵션을 써서 상시 컴파일되게함   
+sass --watch styles.scss styles.css   
+혹은 scss, css폴더를 구분해두었다면 폴더왓칭   
+sass --watch scss:css   
+
