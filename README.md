@@ -294,5 +294,12 @@ $bg: red;와 같이 선언,
 
 - Nesting
 CSS를 계층구조로 작성가능   
-가상클래스선택자의 경우 $:active로 사용   
+가상클래스선택자의 경우 &:active로 사용   
+
+- Mixins 
+@mixin name {}   
+@mixin name($color) {}   
+a{@include name() or name(blue)}   
+문자열을보낼수도 있다. @include name('str')   
+@mixin name($word) {@if $word === 'str'{}@else{} }   
 
