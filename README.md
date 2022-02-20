@@ -285,3 +285,9 @@ sass --watch styles.scss styles.css
 혹은 scss, css폴더를 구분해두었다면 폴더왓칭   
 sass --watch scss:css   
 
+- variable
+variable은 scss에만 사용한다.   
+따라서 css로 변환하기를 원하지 않는다.   
+css로의 변환을 원하지않는것들엔 _을 맨 앞에 둔다.   
+$bg: red;와 같이 선언,   
+@import "_variable"로 적재해서 사용한다.   

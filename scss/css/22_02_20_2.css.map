@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"22_02_20_2.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/22_02_20_2.scss","../scss/_variable.scss"],"names":[],"mappings":"AAEA;EACE,kBCHG;;;ADML;EACE,WCNM","file":"22_02_20_2.css"}
