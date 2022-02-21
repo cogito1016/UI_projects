@@ -7,3 +7,9 @@
 @mixin sexyLink($color) {
   color: $color;
 }
+
+@mixin sexyP($str) {
+  @if $str == "hello" {
+    color: red;
+  }
+}

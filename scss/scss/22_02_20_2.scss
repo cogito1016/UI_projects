@@ -22,3 +22,7 @@ a {
     @include sexyLink(red);
   }
 }
+
+p {
+  @include sexyP("hello");
+}
