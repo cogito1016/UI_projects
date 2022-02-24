@@ -303,3 +303,9 @@ a{@include name() or name(blue)}
 문자열을보낼수도 있다. @include name('str')   
 @mixin name($word) {@if $word === 'str'{}@else{} }   
 
+- Extends
+같은코드를 중복하고싶지 않을때 사용   
+(mixin은 상황에 따라 다르게 코딩하고 싶을 때 사용)   
+코드확장 or 재사용   
+%를 사용   
+include %extendsName   
