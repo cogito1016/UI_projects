@@ -11,5 +11,7 @@
 @mixin sexyP($str) {
   @if $str == "hello" {
     color: red;
+  } @else {
+    color: blue;
   }
 }
