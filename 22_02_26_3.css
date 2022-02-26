@@ -14,7 +14,53 @@ body {
 }
 
 #page_desc {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.flexWrap {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+
+#page_desc header h1 {
+  font-size: 58px;
+  color: #e6473c;
+}
+
+#page_desc h3 {
+  font-size: 1.6em;
+  color: #e6473c;
+}
+
+#page_desc h5 {
+  font-size: 1em;
+  color: #e6473c;
+}
+
+#page_desc ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#page_desc ul li {
+  font-size: 1em;
+  color: #606060;
+}
+
+#page_desc ul li a {
+  text-decoration: underline;
+  text-decoration-color: #606060;
+}
+
+#page_desc p {
+  font-size: 0.5em;
+  color: #606060;
 }
 
 #movies {
