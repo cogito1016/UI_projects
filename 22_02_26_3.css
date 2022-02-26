@@ -21,7 +21,6 @@ body {
 }
 
 .flexWrap {
-  /* width: 60%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,5 +65,15 @@ body {
 }
 
 #movies {
-  background-color: blue;
+  background-color: #e7473c;
+}
+
+#movies .notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 150px;
+  /* width:100%;  */
+  /* width:100vh; */
 }
