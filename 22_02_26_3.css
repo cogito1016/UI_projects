@@ -65,15 +65,23 @@ body {
 }
 
 #movies {
+  display: grid;
+  grid-template-columns: 100%;
   background-color: #e7473c;
 }
 
 #movies .notice {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-  height: 150px;
-  /* width:100%;  */
-  /* width:100vh; */
+  text-align: center;
+  line-height: 100px;
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  opacity: 0.8;
+}
+
+.test {
+  margin-top: 100px;
+  height: 1000px;
+  background-color: #606060;
 }
