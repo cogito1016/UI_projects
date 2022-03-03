@@ -13,7 +13,7 @@ body {
 #filter {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: 30px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
