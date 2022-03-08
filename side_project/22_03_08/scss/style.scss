@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import "_variable";
+
+body {
+  height: 100vh;
+}
+
+header {
+  width: 30%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 75px;
+  background-color: $header_background-color;
+  h1,
+  h3,
+  h5 {
+    color: $signiture_color;
+  }
+  h1 {
+    width: 50%;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  h3 {
+    width: 75%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h5 {
+    width: 78%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 20px;
+  }
+  p,
+  nav {
+    color: $gray_color;
+  }
+  nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      li {
+        cursor: pointer;
+        text-decoration: underline;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  p {
+    width: 85%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

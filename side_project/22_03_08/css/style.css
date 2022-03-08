@@ -1,0 +1,58 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+body {
+  height: 100vh;
+}
+
+header {
+  width: 30%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 75px;
+  background-color: #f0f0f0;
+}
+header h1,
+header h3,
+header h5 {
+  color: #e7473c;
+}
+header h1 {
+  width: 50%;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+header h3 {
+  width: 75%;
+  font-size: 25px;
+  line-height: 30px;
+}
+header h5 {
+  width: 78%;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 20px;
+}
+header p,
+header nav {
+  color: #606060;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header nav ul li {
+  cursor: pointer;
+  text-decoration: underline;
+}
+header nav ul li:hover {
+  color: black;
+}
+header p {
+  width: 85%;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
