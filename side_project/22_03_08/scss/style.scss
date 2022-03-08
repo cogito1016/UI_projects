@@ -11,12 +11,13 @@ header {
   top: 0;
   left: 0;
   width: $header_width;
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 75px;
   background-color: $header_background-color;
+  box-sizing: border-box;
   h1,
   h3,
   h5 {
@@ -64,7 +65,7 @@ header {
 }
 
 main {
-  width: 70%;
+  width: 65%;
   margin-left: $header_width;
   background-color: $signiture_color;
   #movieContainer {
