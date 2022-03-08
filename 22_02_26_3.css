@@ -8,12 +8,13 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: minmax(420px, 600px) minmax(420px, 1fr);
-  grid-template-rows: minmax(300px, max-content);
 }
 
 #page_desc {
+  width: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: grid;
   grid-template-columns: 60%;
   grid-template-rows: minmax(600px, 100vh);
@@ -65,6 +66,7 @@ body {
 }
 
 #movies {
+  margin-left: 30%;
   background-color: #e7473c;
 }
 
