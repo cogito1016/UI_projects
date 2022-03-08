@@ -7,9 +7,6 @@ body {
   height: 100vh;
 }
 
-#container {
-}
-
 #filter {
   display: grid;
   justify-content: space-between;
@@ -26,10 +23,6 @@ body {
   border-right: 3px solid black;
 }
 
-#filter .select_box:last-child {
-  border: none;
-}
-
 #filter select {
   border: none;
 }
@@ -38,7 +31,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: minmax(300px, 1fr);
-  background-color: green;
 }
 
 #contentContainer .content {
@@ -48,10 +40,6 @@ body {
   align-items: center;
   border-right: 3px solid black;
   border-bottom: 3px solid black;
-}
-
-#contentContainer .content:last-child {
-  border-right: none;
 }
 
 #contentContainer .content .content_top,
