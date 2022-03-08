@@ -1,0 +1,28 @@
+.grid {
+  background-color: gainsboro;
+  display: grid;
+  gap: 5px;
+  height: 250vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  justify-content: center;
+  align-content: space-around;
+}
+
+.header {
+  background-color: red;
+  align-self: end;
+  justify-self: end;
+}
+
+.content {
+  background-color: blue;
+}
+
+.nav {
+  background-color: green;
+}
+
+.footer {
+  background-color: bisque;
+}

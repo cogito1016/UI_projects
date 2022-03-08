@@ -1,0 +1,26 @@
+@import "_mixins";
+@import "_variable";
+
+.first {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.second {
+  @include sexyLink(blue);
+}
+
+.third {
+  width: 100px;
+  height: 100px;
+  background-color: $bg;
+}
+
+.fourth {
+  @include sexyP("s");
+}
+
+.fifth {
+  @include sexyP("hello");
+}

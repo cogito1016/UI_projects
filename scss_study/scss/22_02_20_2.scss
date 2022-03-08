@@ -1,0 +1,28 @@
+@import "_variable";
+@import "_mixins";
+
+body {
+  background-color: $bg;
+}
+
+h1 {
+  font-size: $title;
+}
+
+h2 {
+  @include sexyTitle;
+}
+
+a {
+  &:nth-child(even) {
+    @include sexyLink(blue);
+  }
+
+  &:nth-child(odd) {
+    @include sexyLink(red);
+  }
+}
+
+p {
+  @include sexyP("hello");
+}

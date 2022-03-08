@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  color: blue;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+a:nth-child(even) {
+  color: blue;
+}
+a:nth-child(odd) {
+  color: red;
+}
+
+p {
+  color: red;
+}
+
+/*# sourceMappingURL=22_02_20_2.css.map */
