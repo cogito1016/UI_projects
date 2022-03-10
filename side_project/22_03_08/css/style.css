@@ -62,14 +62,28 @@ header p {
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 65%;
   margin-left: 35%;
   background-color: #e7473c;
 }
 main #movieContainer .movie {
-  width: 400px;
-  height: 1000px;
+  width: 100%;
+  height: 800px;
   background-color: blue;
+}
+main #movieContainer .movie img {
+  width: 100%;
+  height: 50%;
+}
+main #movieContainer .movie p {
+  text-align: right;
+}
+main #movieContainer .movie .bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
