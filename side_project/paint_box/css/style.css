@@ -13,12 +13,31 @@ header {
   width: 80%;
   height: 70px;
   background-color: mediumseagreen;
+  display: flex;
+  justify-content: space-between;
+}
+header .btn_box {
+  height: 70px;
+  background-color: red;
+}
+header .btn_box ul {
+  display: flex;
+  gap: 20px;
+  line-height: 70px;
+  font-size: 8pt;
+  letter-spacing: 2px;
+  user-select: none;
+}
+header .btn_box ul li {
+  cursor: pointer;
 }
 
 main {
   width: 80%;
   height: 100%;
   margin-top: 70px;
+  display: flex;
+  flex-direction: column;
   background-color: plum;
 }
 

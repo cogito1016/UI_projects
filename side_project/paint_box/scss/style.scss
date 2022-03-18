@@ -1,9 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import "variable";
 
-body {
-}
-
 #container {
   display: flex;
   flex-direction: column;
@@ -18,12 +15,37 @@ header {
   width: $header_content-width;
   height: $header-height;
   background-color: mediumseagreen;
+
+  display: flex;
+  justify-content: space-between;
+
+  .btn_box {
+    height: $header-height;
+    background-color: red;
+
+    ul {
+      display: flex;
+      gap: 20px;
+      line-height: $header-height;
+      font-size: 8pt;
+      letter-spacing: 2px;
+      user-select: none;
+
+      li {
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 main {
   width: $header_content-width;
   height: 100%;
   margin-top: $header-height;
+
+  display: flex;
+  flex-direction: column;
+
   background-color: plum;
 }
 
