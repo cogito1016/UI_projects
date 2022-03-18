@@ -14,14 +14,16 @@ body {
 }
 
 header {
+  position: fixed;
   width: $header_content-width;
-  height: 70px;
+  height: $header-height;
   background-color: mediumseagreen;
 }
 
 main {
   width: $header_content-width;
   height: 100%;
+  margin-top: $header-height;
   background-color: plum;
 }
 
