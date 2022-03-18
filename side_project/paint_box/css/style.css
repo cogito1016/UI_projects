@@ -1,5 +1,30 @@
-body {
-  color: red;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+header {
+  width: 80%;
+  height: 70px;
+  background-color: mediumseagreen;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+  background-color: plum;
+}
+
+footer {
+  width: 100%;
+  height: 137px;
+  padding: 65px;
+  background-color: royalblue;
 }
 
 /*# sourceMappingURL=style.css.map */
