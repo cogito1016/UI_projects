@@ -16,6 +16,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header img {
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  margin-left: -35px;
+  position: absolute;
+}
 header .btn_box {
   height: 70px;
   background-color: red;
@@ -46,8 +53,12 @@ main .basic_template {
   background-color: #fbf7f6;
   display: flex;
 }
+main .basic_template img {
+  width: 50%;
+  height: 100%;
+}
 main .basic_template .desc_box {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;

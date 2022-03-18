@@ -19,6 +19,14 @@ header {
   display: flex;
   justify-content: space-between;
 
+  img {
+    width: $header-height;
+    height: $header-height;
+    left: 50%;
+    margin-left: -$header-height/2;
+    position: absolute;
+  }
+
   .btn_box {
     height: $header-height;
     background-color: red;
@@ -55,8 +63,13 @@ main {
 
     display: flex;
 
+    img {
+      width: 50%;
+      height: 100%;
+    }
+
     .desc_box {
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
