@@ -126,6 +126,36 @@ main .product_box_template .product_item button {
   font-size: 10px;
   letter-spacing: 4px;
 }
+main .search_box_template {
+  width: 100%;
+  height: 600px;
+  padding: 40px 140px 40px 140px;
+  box-sizing: border-box;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .search_box_template p {
+  font-size: 35px;
+  text-align: center;
+}
+main .search_box_template .email_search_box {
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+main .search_box_template .email_search_box input {
+  font-size: 40px;
+  width: 90%;
+  height: 50px;
+}
+main .search_box_template .email_search_box button {
+  width: 10%;
+  height: 55px;
+}
 
 footer {
   width: 100%;
