@@ -193,4 +193,29 @@ footer {
   padding: 65px;
   background-color: royalblue;
   box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-around;
+
+  .vertical_divide_line {
+    height: 140px;
+    width: 1px;
+    background-color: black;
+  }
+
+  nav {
+    width: 30%;
+    height: 140px;
+    background-color: red;
+    ul {
+      li {
+        text-align: center;
+        margin-bottom: 10px;
+        &:first-child {
+          color: gray;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
 }
