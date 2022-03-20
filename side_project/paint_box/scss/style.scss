@@ -23,7 +23,7 @@ header {
     width: $header-height;
     height: $header-height;
     left: 50%;
-    margin-left: -$header-height/2;
+    margin-left: calc(-1 * $header-height/2);
     position: absolute;
   }
 
