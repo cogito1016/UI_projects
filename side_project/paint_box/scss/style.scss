@@ -7,14 +7,14 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: black;
+  //   background-color: black;
 }
 
 header {
   position: fixed;
   width: $header_content-width;
   height: $header-height;
-  background-color: mediumseagreen;
+  background-color: white;
 
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,7 @@ header {
 
   .btn_box {
     height: $header-height;
-    background-color: red;
+    // background-color: red;
 
     ul {
       display: flex;
@@ -55,12 +55,12 @@ main {
   flex-direction: column;
   gap: 30px;
 
-  background-color: plum;
+  //   background-color: plum;
 
   .basic_template {
     width: 100%;
     height: 540px;
-    background-color: #fbf7f6;
+    // background-color: #fbf7f6;
 
     display: flex;
 
@@ -110,7 +110,7 @@ main {
   .product_box_template {
     width: 100%;
     height: 750px;
-    background-color: gray;
+    // background-color: gray;
 
     display: flex;
     justify-content: space-around;
@@ -118,7 +118,7 @@ main {
     .product_item {
       width: 30%;
       height: 100%;
-      background-color: beige;
+      //   background-color: beige;
 
       display: flex;
       flex-direction: column;
@@ -141,7 +141,7 @@ main {
       button {
         width: 80%;
         height: 50px;
-        background-color: white;
+        // background-color: white;
         border: 1px solid gray;
         font-size: 10px;
         letter-spacing: 4px;
@@ -154,7 +154,7 @@ main {
     height: 600px;
     padding: 40px 140px 40px 140px;
     box-sizing: border-box;
-    background-color: blueviolet;
+    // background-color: blueviolet;
 
     display: flex;
     flex-direction: column;
@@ -168,7 +168,7 @@ main {
     .email_search_box {
       width: 100%;
       height: 70px;
-      background-color: red;
+      //   background-color: red;
 
       display: flex;
 
@@ -178,10 +178,13 @@ main {
         font-size: 40px;
         width: 90%;
         height: 50px;
+        border: none;
       }
       button {
         width: 10%;
         height: 55px;
+        background-color: white;
+        border: 1px solid black;
       }
     }
   }
@@ -191,7 +194,7 @@ footer {
   width: 100%;
   height: 267px;
   padding: 65px;
-  background-color: royalblue;
+  //   background-color: royalblue;
   box-sizing: border-box;
 
   display: flex;
@@ -200,13 +203,13 @@ footer {
   .vertical_divide_line {
     height: 140px;
     width: 1px;
-    background-color: black;
+    // background-color: black;
   }
 
   nav {
     width: 30%;
     height: 140px;
-    background-color: red;
+    // background-color: red;
     ul {
       li {
         text-align: center;

@@ -5,14 +5,13 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: black;
 }
 
 header {
   position: fixed;
   width: 80%;
   height: 70px;
-  background-color: mediumseagreen;
+  background-color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +24,6 @@ header img {
 }
 header .btn_box {
   height: 70px;
-  background-color: red;
 }
 header .btn_box ul {
   display: flex;
@@ -46,12 +44,10 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  background-color: plum;
 }
 main .basic_template {
   width: 100%;
   height: 540px;
-  background-color: #fbf7f6;
   display: flex;
 }
 main .basic_template img {
@@ -95,14 +91,12 @@ main .basic_template .desc_box button {
 main .product_box_template {
   width: 100%;
   height: 750px;
-  background-color: gray;
   display: flex;
   justify-content: space-around;
 }
 main .product_box_template .product_item {
   width: 30%;
   height: 100%;
-  background-color: beige;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -121,7 +115,6 @@ main .product_box_template .product_item h6 {
 main .product_box_template .product_item button {
   width: 80%;
   height: 50px;
-  background-color: white;
   border: 1px solid gray;
   font-size: 10px;
   letter-spacing: 4px;
@@ -131,7 +124,6 @@ main .search_box_template {
   height: 600px;
   padding: 40px 140px 40px 140px;
   box-sizing: border-box;
-  background-color: blueviolet;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -143,7 +135,6 @@ main .search_box_template p {
 main .search_box_template .email_search_box {
   width: 100%;
   height: 70px;
-  background-color: red;
   display: flex;
   border-bottom: 1px solid black;
 }
@@ -151,17 +142,19 @@ main .search_box_template .email_search_box input {
   font-size: 40px;
   width: 90%;
   height: 50px;
+  border: none;
 }
 main .search_box_template .email_search_box button {
   width: 10%;
   height: 55px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 footer {
   width: 100%;
   height: 267px;
   padding: 65px;
-  background-color: royalblue;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -169,12 +162,10 @@ footer {
 footer .vertical_divide_line {
   height: 140px;
   width: 1px;
-  background-color: black;
 }
 footer nav {
   width: 30%;
   height: 140px;
-  background-color: red;
 }
 footer nav ul li {
   text-align: center;
